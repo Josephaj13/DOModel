@@ -43,6 +43,10 @@ thr.addEventListener("click",()=>{
     document.querySelector("#textbox").value = document.querySelector("#textbox").value +thr.value;
 })
 
+var zer=document.querySelector("#btn0")
+zer.addEventListener("click",()=>{
+    document.querySelector("#textbox").value = document.querySelector("#textbox").value +zer.value;
+})
 
 
 var clear=document.querySelector("#clear")
